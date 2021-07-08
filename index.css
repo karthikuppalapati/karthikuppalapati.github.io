@@ -1,6 +1,6 @@
 
 .wrapper {
-    height: 100vh;
+    height: 60vh;
     /*This part is important for centering*/
     display: flex;
     align-items: center;
@@ -8,7 +8,7 @@
 }
 
 .typing-demo {
-    width: 22ch;
+    width: 17ch;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -54,9 +54,9 @@ html {
     width: 50%;
     border-radius: 10px;
     margin-left: 25%;
-    height: 7vh;
+    height: 6vh;
     text-align: center;
-    margin-bottom: 1.5vh;
+    margin-bottom: 1vh;
 }
 
 .navbar a {
@@ -64,7 +64,7 @@ html {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 1vw;
+    padding-left: 2vw;
     text-decoration: none;
     font-size: 17px;
 }
@@ -73,8 +73,7 @@ html {
 /* Change the color of links on hover */
 
 .navbar a:hover {
-    background-color: #ddd;
-    color: black;
+    color: greenyellow;
 }
 
 
@@ -85,13 +84,12 @@ html {
     color: white;
 }
 
-
-/* Hide the link that should open and close the navbar on small screens */
-
 .navbar .icon {
     display: none;
 }
 
+
+/* 
 @media screen and (max-width: 600px) {
     .navbar a:not(:first-child) {
         display: none;
@@ -101,9 +99,6 @@ html {
         display: block;
     }
 }
-
-
-/* The "responsive" class is added to the navbar with JavaScript when the user clicks on the icon. This class makes the navbar look good on small screens (display the links vertically instead of horizontally) */
 
 @media screen and (max-width: 600px) {
     .navbar.responsive a.icon {
@@ -120,7 +115,7 @@ html {
 
 a span {
     vertical-align: middle;
-}
+} */
 
 #About {
     width: 100%;
@@ -234,7 +229,7 @@ a span {
 
 #connect-icons {
     width: 70%;
-    padding-left: 35%;
+    padding-left: 38%;
 }
 
 .fa-facebook-f {
@@ -256,7 +251,7 @@ a span {
 }
 
 #mail {
-    padding-left: 40%;
+    padding-left: 43%;
     font-size: 1.4vw;
 }
 
