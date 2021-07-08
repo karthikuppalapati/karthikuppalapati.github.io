@@ -125,7 +125,7 @@ a span {
 #About {
     width: 100%;
     margin: 1px solid black;
-    height: 100vh;
+    height: 80vh;
 }
 
 #about-text {
@@ -142,7 +142,7 @@ a span {
 }
 
 #Projects {
-    height: 100vh;
+    height: 80vh;
 }
 
 #projects-heading {
@@ -156,7 +156,7 @@ a span {
 }
 
 #Skills {
-    height: 100vh;
+    height: 80vh;
 }
 
 #skills-heading {
@@ -202,7 +202,7 @@ a span {
 }
 
 #Experience {
-    height: 100vh;
+    height: 80vh;
     align-items: center;
 }
 
@@ -218,7 +218,7 @@ a span {
 }
 
 #Connect {
-    height: 100vh;
+    height: 80vh;
 }
 
 #connect-heading {
