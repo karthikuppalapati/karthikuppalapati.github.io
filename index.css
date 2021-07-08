@@ -260,3 +260,9 @@ a span {
     border-radius: 50%;
     margin-left: 42%;
 }
+
+.ball {
+    position: fixed;
+    border-radius: 100%;
+    opacity: 0.5;
+}
