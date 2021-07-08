@@ -1,27 +1,3 @@
-/* .navbar {
-    background-color: #333;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 50%;
-    border-radius: 15px;
-    margin-left: 25%;
-    height: 8vh;
-    text-align: center;
-    margin-bottom: 1vh;
-}
-
-.navbar a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    text-decoration: none;
-    margin-left: 7%;
-    display: block;
-    height: 8vh;
-    margin-top: 2vh;
-}
-*/
 
 .wrapper {
     height: 100vh;
@@ -78,9 +54,9 @@ html {
     width: 50%;
     border-radius: 10px;
     margin-left: 25%;
-    height: 8vh;
+    height: 7vh;
     text-align: center;
-    margin-bottom: 1vh;
+    margin-bottom: 1.5vh;
 }
 
 .navbar a {
@@ -88,7 +64,7 @@ html {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1vw;
     text-decoration: none;
     font-size: 17px;
 }
@@ -155,12 +131,12 @@ a span {
 #about-text {
     width: 75%;
     margin-left: 12%;
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 #about-heading {
     text-align: center;
-    font-size: 2vw;
+    font-size: 3vw;
     margin: 0;
     padding: 0
 }
@@ -169,13 +145,119 @@ a span {
     height: 100vh;
 }
 
+#projects-heading {
+    text-align: center;
+    font-size: 3vw;
+}
+
+#projects-text {
+    font-size: 2vw;
+    text-align: center;
+}
+
+#Skills {
+    height: 100vh;
+}
+
+#skills-heading {
+    text-align: center;
+    font-size: 3vw;
+}
+
+#skills-grid {
+    display: grid;
+    grid-row-gap: 5vw;
+    grid-column-gap: 2vw;
+    grid-template-columns: auto auto auto;
+    width: 70%;
+    margin-left: 20%;
+}
+
+.skill-item {
+    font-size: 8vw;
+}
+
+.fa-html5 {
+    color: #e34c26
+}
+
+.fa-css3-alt {
+    color: #264de4
+}
+
+.fa-js-square {
+    color: #F0DB4F;
+}
+
+.fa-node {
+    color: #3c873a;
+}
+
+.fa-java {
+    color: #f89820
+}
+
+.fa-cuttlefish {
+    color: #5E97D0;
+}
+
 #Experience {
     height: 100vh;
     align-items: center;
 }
 
+#experience-heading {
+    text-align: center;
+    font-size: 3vw;
+}
+
+#exp-container {
+    width: 75%;
+    margin-left: 12%;
+    font-size: 2vw;
+}
+
 #Connect {
     height: 100vh;
+}
+
+#connect-heading {
+    text-align: center;
+    font-size: 3vw;
+}
+
+#connect-text {
+    font-size: 2vw;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#connect-icons {
+    width: 70%;
+    padding-left: 35%;
+}
+
+.fa-facebook-f {
+    margin-left: 7%;
+    font-size: 2vw;
+    color: #3b5998
+}
+
+.fa-linkedin-in {
+    margin-left: 7%;
+    font-size: 2vw;
+    color: #0e76a8
+}
+
+.fa-github {
+    margin-left: 7%;
+    font-size: 2vw;
+    color: black
+}
+
+#mail {
+    padding-left: 40%;
+    font-size: 1.4vw;
 }
 
 #dp {
