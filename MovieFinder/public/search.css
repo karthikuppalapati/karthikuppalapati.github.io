@@ -1,0 +1,51 @@
+.heading {
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white
+}
+
+.search-bar {
+    width: 100%;
+    font-size: 2vw;
+    border-radius: 10px;
+    /* padding-left: 33%; */
+    outline: none;
+    border: 1px solid white;
+    height: 50px;
+    background: transparent;
+    color: white;
+    text-align: center;
+}
+
+.form {
+    width: 50%;
+    padding-left: 25%;
+}
+
+.submit {
+    color: black;
+    background-color: white;
+    margin-left: 43%;
+    border: none;
+    outline: none;
+    width: 7vw;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 1vw;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/originals/1a/e5/e0/1ae5e097bcb3770a107c9d6f47e95e14.png');
+    background-image: url('https://images-na.ssl-images-amazon.com/images/I/71uQKi6sDLL._SX355_.jpg');
+    background-image: url('https://wallpapercave.com/wp/wp2714553.jpg');
+    background-image: url('https://wallpaperaccess.com/full/3230526.jpg');
+    background-image: url('https://wallpaperaccess.com/full/3230772.jpg');
+    background-size: cover;
+}
+
+#author {
+    margin-top: 60vh;
+    color: white;
+    text-align: center;
+}

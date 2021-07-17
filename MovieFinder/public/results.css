@@ -1,0 +1,35 @@
+#results-heading {
+    text-align: center;
+    font-size: 3vw;
+    color: white
+}
+
+.grid-container {
+    display: grid;
+    width: 70%;
+    margin-left: 15%;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #ece6e9;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin-right: 1vw;
+    font-size: 1.3vw;
+    text-align: center;
+    height: 450px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+body {
+    background-color: black;
+}

@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="results.css">
+
+</p>
+<%if(data.Search==undefined){%>
+    <h1 style="color: white;text-align: center;font-size: 7vw;">Looking for Watson???</h1>
+    <%}else{%>
+        <div class="grid-container">
+            <p id="results-heading">Related movies to
+                <%=movieName.toUpperCase()%>
+                    <% data.Search.forEach((movie) =>{%>
+                        <div class="grid-item">
+
+                            <img style="width:190;height:220;background-image: url('https://media.istockphoto.com/vectors/error-404-page-not-found-vector-id673101428?k=6&m=673101428&s=170667a&w=0&h=xr8E71CR8ZabAwW7ku9RRy8xFJqp3Pq-gaMDnD6Qh1c=');background-size: cover;" src=<%=movie.Poster
+                                %> >
+                            <p style="font-weight: bold;">
+                                <%= movie.Title%>
+                            </p>
+                            <p>Year of release:
+                                <%=movie.Year%>
+                            </p>
+                            <p>IMDB ID:
+                                <%=movie.imdbID%>
+                            </p>
+                            <p>Type:
+                                <%=movie.Type%>
+                            </p>
+                        </div>
+                        <%})} %>
+
+        </div>
