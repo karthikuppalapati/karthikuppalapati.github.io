@@ -1,0 +1,177 @@
+*
+{
+  margin:0;
+}body
+{
+  background:black;
+}
+#phone
+{
+	width:14em;
+	height:28em;
+	border: 1px solid black;
+	border-radius: 15px;
+	vertical-align: middle;
+	margin-left:40em;
+  box-shadow:0 0 20px #fcd772;
+  background:white;margin-top: 5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 2em;
+  -webkit-box-reflect:below -12px linear-gradient(transparent,rgba(255,255,255,0.1));
+}
+#top
+{
+	width:14em;
+	height:2em;
+	
+	justify-content: center;
+	float:left;
+	
+}
+
+#speaker
+{
+	width:2.6em;
+	height:0.15em;
+	border:0.2px solid black;
+	border-radius: 50px;
+	float:left;
+  margin-top:1em;
+  margin-left:1em;
+  background:black;
+}
+
+#cam1
+{
+	color:black;
+	font-size: 10px;
+	float:left;
+  padding-top:1.5em;
+  padding-left:6em;
+}
+#cam2
+{
+	color:black;
+	font-size: 10px;
+	float:left;
+  padding-top:1.5em;
+  padding-left:2em;
+}
+#cam3
+{
+	color:black;
+	font-size: 10px;
+	float:left;
+  padding-top:1.5em;
+  padding-left:0.7em;
+}
+#light
+{
+	color:grey;
+	font-size: 4px;
+	float:left;
+  padding-top:4.6em;
+  padding-left:2.2em;
+}
+
+#mid
+{
+  height:24em;
+  width:13.3em;
+  border:0.05px solid black;
+  margin-left:0.29em;
+  margin-top:2em;
+  border-radius:10px;
+  background-image:url("https://i.redd.it/b9omhdrk6fz31.jpg");
+  
+}
+#mid2
+{
+  height:24em;
+  width:13.3em;
+  border:0.05px solid black;
+  margin-left:0.29em;
+  margin-top:2em;
+  border-radius:10px;
+  background-image:url("https://i.redd.it/b9omhdrk6fz31.jpg");
+  
+}
+
+#call
+{
+  color:#00e300;
+  float:bottom;
+  font-size:25px;
+  padding-left:0.25em;
+  padding-top:13.5em;
+}
+
+#contact
+{
+  color:#0070d1;
+  float:bottom;
+  font-size:25px;
+  padding-left:0.7em;
+}
+#menu
+{
+  color:black;
+  float:bottom;
+  font-size:20px;
+  padding-left:0.75em;
+}
+#google
+{
+  color:#f08e0e;
+  float:bottom;
+  font-size:25px;
+  padding-left:0.65em;
+}
+#cam
+{
+  color:grey;
+  float:bottom;
+  font-size:25px;
+  padding-left:0.7em;
+}
+
+#not
+{
+	color:white;
+	font-size: 10px;
+  padding-top:0em;
+  padding-left:9em;
+  margin:0;
+}
+#signal
+{
+	color:white;
+	font-size: 9px;
+   padding-left:0.3em;
+}
+#battery
+{
+	color:white;
+	font-size: 10px;
+  padding-left:0.3em;
+}
+#wifi
+{
+	color:white;
+	font-size: 9px;
+  padding-left:0.3em;
+}
+
+
+#time
+{
+  color:white;
+  font-size:11px;
+  background:black;
+  height:20px;
+}
+#vid
+{
+	width:400px;
+	height:400px;
+}
