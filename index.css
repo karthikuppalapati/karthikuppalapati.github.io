@@ -1,25 +1,25 @@
 body {
-    background-color: white;
+    background-color: #12012e;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .wrapper {
-    height: 60vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .typing-demo {
-    width: 17ch;
+    width: 18ch;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
     font-size: 3vw;
-    color: black
+    color: white
 }
 
 @keyframes typing {
@@ -52,31 +52,35 @@ html {
 }
 
 .navbar {
-    background-color: #333;
+    background-color: #12012e;
+    /* background-color: ; */
     overflow: hidden;
     position: fixed;
-    bottom: 0;
-    width: 55%;
-    border-radius: 10px;
-    margin-left: 25%;
-    height: 6vh;
+    top: 0;
+    width: 72%;
+    border-bottom: 3px solid white;
+    /* border-left: 3px solid white;
+    border-right: 3px solid white; */
+    padding-bottom: 3%;
+    margin-left: 14%;
+    height: 7vh;
     text-align: center;
     margin-bottom: 1vh;
     opacity: 1;
+    /* border: 1px solid black */
 }
 
 .navbar a {
     float: left;
-    display: block;
-    color: greenyellow;
+    color: white;
     text-align: center;
-    padding-left: 2vw;
+    padding-left: 0;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .navbar a:hover {
-    color: greenyellow;
+    color: green;
 }
 
 .navbar a.active {
@@ -88,44 +92,16 @@ html {
     display: none;
 }
 
-
-/* 
-@media screen and (max-width: 600px) {
-    .navbar a:not(:first-child) {
-        display: none;
-    }
-    .navbar a.icon {
-        float: right;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .navbar.responsive a.icon {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-    }
-    .navbar.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-}
-
-a span {
-    vertical-align: middle;
-} */
-
 #About {
     width: 70%;
     margin: 1px solid black;
-    background-color: black;
-    color: white;
+    background-color: rgba(146, 33, 33, 0.175);
+    color: #bbb0cf;
     height: 80vh;
     margin-left: 15%;
     border-radius: 25px;
-    box-shadow: 0 0 8px 1px gold;
+    box-shadow: 0 0 8px 1px white;
+    margin-bottom: 5vh;
 }
 
 #about-text {
@@ -139,7 +115,7 @@ a span {
     font-size: 3vw;
     margin: 0;
     padding: 0;
-    color: greenyellow;
+    color: #FFD700;
     font-weight: bolder;
     text-shadow: 2px 2px 5px black;
 }
@@ -149,15 +125,16 @@ a span {
     margin-left: 15%;
     border-radius: 25px;
     height: 60vh;
-    background-color: black;
+    background-color: rgba(146, 33, 33, 0.175);
     color: white;
-    box-shadow: 0 0 8px 1px gold;
+    box-shadow: 0 0 8px 1px white;
+    margin-bottom: 5vh;
 }
 
 #projects-heading {
     text-align: center;
     font-size: 3vw;
-    color: greenyellow;
+    color: #FFD700;
     font-weight: bolder;
     text-shadow: 2px 2px 5px black;
 }
@@ -180,7 +157,7 @@ a span {
 }
 
 .project-item {
-    height: 33vh;
+    height: 40vh;
     padding: 0;
     background-color: white;
     border-radius: 15px;
@@ -189,9 +166,19 @@ a span {
     box-shadow: 0 0 8px 2px gray;
 }
 
+.project-item:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
 .project-name {
     text-align: center;
-    color: #ff0000;
+    color: #FFD700;
+    border-bottom: 1px solid black;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    text-shadow: 2px 2px 5px #333;
+    background-color: #e34c26;
 }
 
 .project-desc {
@@ -200,8 +187,11 @@ a span {
 
 .project-link {
     text-decoration: none;
-    margin-left: 42%;
-    color: greenyellow
+    margin-left: 35%;
+    background-color: #333;
+    width: 25%;
+    height: 5vh;
+    border-radius: 5px;
 }
 
 .project-link:hover {
@@ -213,15 +203,16 @@ a span {
     margin-left: 15%;
     border-radius: 25px;
     height: 70vh;
-    background-color: black;
+    background-color: rgba(146, 33, 33, 0.175);
     color: white;
-    box-shadow: 0 0 8px 1px gold;
+    box-shadow: 0 0 8px 1px white;
+    margin-bottom: 5vh;
 }
 
 #skills-heading {
     text-align: center;
     font-size: 3vw;
-    color: greenyellow;
+    color: #FFD700;
     font-weight: bolder;
     text-shadow: 2px 2px 5px black;
 }
@@ -269,15 +260,16 @@ a span {
     border-radius: 25px;
     height: 80vh;
     align-items: center;
-    background-color: black;
-    color: white;
-    box-shadow: 0 0 8px 1px gold;
+    background-color: rgba(146, 33, 33, 0.175);
+    color: #bbb0cf;
+    box-shadow: 0 0 8px 1px white;
+    margin-bottom: 5vh;
 }
 
 #experience-heading {
     text-align: center;
     font-size: 3vw;
-    color: greenyellow;
+    color: #FFD700;
     font-weight: bolder;
     font-weight: bolder;
     text-shadow: 2px 2px 5px black;
@@ -294,15 +286,16 @@ a span {
     margin-left: 15%;
     border-radius: 25px;
     height: 60vh;
-    background-color: black;
-    color: white;
-    box-shadow: 0 0 8px 1px gold;
+    background-color: rgba(146, 33, 33, 0.175);
+    color: #bbb0cf;
+    box-shadow: 0 0 8px 1px white;
+    margin-bottom: 5vh;
 }
 
 #connect-heading {
     text-align: center;
     font-size: 3vw;
-    color: greenyellow;
+    color: #FFD700;
     font-weight: bolder;
     text-shadow: 2px 2px 5px black;
 }
@@ -315,25 +308,25 @@ a span {
 
 #connect-icons {
     width: 70%;
-    padding-left: 38%;
+    padding-left: 42%;
 }
 
 .fa-facebook-f {
     margin-left: 7%;
     font-size: 2vw;
-    color: #3b5998
+    color: #1778f2
 }
 
 .fa-linkedin-in {
     margin-left: 7%;
     font-size: 2vw;
-    color: #0e76a8
+    color: #0077b5
 }
 
 .fa-github {
     margin-left: 7%;
     font-size: 2vw;
-    color: #74369e
+    color: white
 }
 
 #mail {
@@ -348,7 +341,9 @@ a span {
 }
 
 .ball {
-    position: fixed;
+    position: absolute;
     border-radius: 100%;
-    opacity: 0.5;
+    opacity: 1;
+    padding: 0;
+    width: 75%
 }
