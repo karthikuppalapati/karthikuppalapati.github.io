@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Color game</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="Color Game.css">
+</head>
+
+<body>
+    <h1>The Great <span id="colorDisplay"> RGB </span> color game</h1>
+    <div id="stripe">
+        <span id="tryAgain"></span>
+    </div>
+    <div class="game">
+        <div id="container">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <button id="reload" onClick="window.location.reload();">Play Again</button>
+    </div>
+
+
+    <div class="desc" style="color:black">
+        <p>Instructions</p>
+        <p>1. You are given the compositons of Red, Green, Blue at the top (RGB(x,y,z))</p>
+        <p>2. The highest possible value of any color is 255</p>
+        <p>3. Guess the color which can be formed by the given compositions of Red, Green, Blue</p>
+    </div>
+
+
+    <script type="text/javascript" src="Color Game Script.js"></script>
+
+</body>
+
+</html>

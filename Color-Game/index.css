@@ -1,0 +1,45 @@
+.square {
+    background: black;
+    float: left;
+    width: 30%;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #ff0505;
+    font-size: 40px;
+}
+
+#container {
+    width: 40%;
+    margin-left: 28%;
+    margin-right: 100%;
+}
+
+.game {
+    width: 100%;
+}
+
+body {
+    background-color: white;
+    color: black
+}
+
+#tryAgain {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-left: 43%;
+}
+
+#reload {
+    margin-left: 45%;
+    background-color: gray;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 20px
+}
