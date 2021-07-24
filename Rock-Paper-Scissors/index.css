@@ -54,7 +54,7 @@ div
 #score
 {
 	font-size: 50px;
-	color:#e5ff00;
+	color:white;
 	
 }
 
@@ -64,14 +64,14 @@ div
 	width:100%;
 	
 	padding-top: 30px;
-	color:#f003fc;
+	color:white;
 }
 
 #total
 {
 	text-align: center;
 	width:100%;
-	color:#03f4fc;
+	color:white;
 
 }
 
