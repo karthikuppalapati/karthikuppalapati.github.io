@@ -12,7 +12,7 @@ body {
 }
 
 .typing-demo {
-    width: 18ch;
+    width: 14ch;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -97,17 +97,19 @@ html {
     margin: 1px solid black;
     background-color: rgba(146, 33, 33, 0.175);
     color: #bbb0cf;
-    height: 80vh;
+    height: auto;
     margin-left: 15%;
     border-radius: 25px;
     box-shadow: 0 0 8px 1px white;
     margin-bottom: 5vh;
+    
 }
 
 #about-text {
     width: 75%;
     margin-left: 12%;
     font-size: 2vw;
+    padding-bottom: 5%;
 }
 
 #about-heading {
@@ -124,7 +126,7 @@ html {
     width: 70%;
     margin-left: 15%;
     border-radius: 25px;
-    height: 60vh;
+    height: auto;
     background-color: rgba(146, 33, 33, 0.175);
     color: white;
     box-shadow: 0 0 8px 1px white;
@@ -157,8 +159,9 @@ html {
 }
 
 .project-item {
-    height: 40vh;
+    height: auto;
     padding: 0;
+    margin-bottom: 5%;
     background-color: white;
     border-radius: 15px;
     color: black;
@@ -190,8 +193,9 @@ html {
     margin-left: 35%;
     background-color: #333;
     width: 25%;
-    height: 5vh;
-    border-radius: 5px;
+    height: 40px;
+    border-radius: 50px;
+    margin-bottom: 5%;
 }
 
 .project-link:hover {
@@ -202,7 +206,7 @@ html {
     width: 70%;
     margin-left: 15%;
     border-radius: 25px;
-    height: 70vh;
+    height: auto;
     background-color: rgba(146, 33, 33, 0.175);
     color: white;
     box-shadow: 0 0 8px 1px white;
@@ -224,6 +228,7 @@ html {
     grid-template-columns: auto auto auto;
     width: 70%;
     margin-left: 20%;
+    padding-bottom: 2%;
 }
 
 .skill-item {
@@ -231,11 +236,11 @@ html {
 }
 
 .fa-html5 {
-    color: #e34c26
+    color: #e34c26;
 }
 
 .fa-css3-alt {
-    color: #264de4
+    color: #264de4;
 }
 
 .fa-js-square {
@@ -247,18 +252,19 @@ html {
 }
 
 .fa-java {
-    color: #f89820
+    color: #f89820;
 }
 
 .fa-cuttlefish {
     color: #5E97D0;
 }
 
+
 #Experience {
     width: 70%;
     margin-left: 15%;
     border-radius: 25px;
-    height: 80vh;
+    height: auto;
     align-items: center;
     background-color: rgba(146, 33, 33, 0.175);
     color: #bbb0cf;
@@ -279,17 +285,19 @@ html {
     width: 75%;
     margin-left: 12%;
     font-size: 2vw;
+    padding-bottom: 1%;
 }
 
 #Connect {
     width: 70%;
     margin-left: 15%;
     border-radius: 25px;
-    height: 60vh;
+    height:auto;
     background-color: rgba(146, 33, 33, 0.175);
     color: #bbb0cf;
     box-shadow: 0 0 8px 1px white;
     margin-bottom: 5vh;
+
 }
 
 #connect-heading {
@@ -309,8 +317,8 @@ html {
 #connect-icons {
     width: 70%;
     padding-left: 42%;
+    padding-bottom: 2%;
 }
-
 .fa-facebook-f {
     margin-left: 7%;
     font-size: 2vw;
