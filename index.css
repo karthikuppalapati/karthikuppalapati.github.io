@@ -1,12 +1,37 @@
 body {
-    background-color: #12012e;
+    background-color: #333333;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .wrapper {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -18,8 +43,13 @@ body {
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
-    font-size: 3vw;
-    color: white
+    font-size: 4.5vw;
+    color: #32174d
+}
+
+#quotes {
+    color: #264348;
+    font-size: 2.5vw;
 }
 
 @keyframes typing {
@@ -52,35 +82,37 @@ html {
 }
 
 .navbar {
-    background-color: #12012e;
-    /* background-color: ; */
+    background-color: #202020;
     overflow: hidden;
     position: fixed;
-    top: 0;
-    width: 72%;
-    border-bottom: 3px solid white;
-    /* border-left: 3px solid white;
-    border-right: 3px solid white; */
+    bottom: 0;
+    width: 65%;
     padding-bottom: 3%;
-    margin-left: 14%;
+    margin-left: 17%;
     height: 7vh;
     text-align: center;
-    margin-bottom: 1vh;
+    margin-bottom: 0.5vh;
     opacity: 1;
-    /* border: 1px solid black */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    border: 0.5px solid gray
 }
 
 .navbar a {
     float: left;
     color: white;
     text-align: center;
-    padding-left: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0;
+    margin-bottom: 25px;
     text-decoration: none;
     font-size: 15px;
 }
 
 .navbar a:hover {
-    color: green;
+    color: violet;
 }
 
 .navbar a.active {
@@ -95,19 +127,28 @@ html {
 #About {
     width: 70%;
     margin: 1px solid black;
-    background-color: rgba(146, 33, 33, 0.175);
-    color: #bbb0cf;
-    height: 80vh;
+    background-color: #e3dcca;
+    color: black;
+    height: auto;
     margin-left: 15%;
     border-radius: 25px;
-    box-shadow: 0 0 8px 1px white;
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.56);
     margin-bottom: 5vh;
+    padding-bottom: 3vh;
+    padding-top: 2vh;
+}
+
+#dp {
+    width: 15vw;
+    border-radius: 50%;
+    margin-left: 39%;
 }
 
 #about-text {
-    width: 75%;
-    margin-left: 12%;
+    width: 80%;
+    margin-left: 10%;
     font-size: 2vw;
+    color: #32174d;
 }
 
 #about-heading {
@@ -124,11 +165,12 @@ html {
     width: 70%;
     margin-left: 15%;
     border-radius: 25px;
-    height: 60vh;
-    background-color: rgba(146, 33, 33, 0.175);
+    height: auto;
+    background-color: #e3dcca;
     color: white;
-    box-shadow: 0 0 8px 1px white;
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.56);
     margin-bottom: 5vh;
+    padding-bottom: 3vh;
 }
 
 #projects-heading {
@@ -146,7 +188,7 @@ html {
 
 .projects-grid {
     display: grid;
-    grid-row-gap: 5vw;
+    grid-row-gap: 3vw;
     grid-column-gap: 2vw;
     grid-template-columns: 50% 50%;
     width: 70%;
@@ -157,7 +199,7 @@ html {
 }
 
 .project-item {
-    height: 40vh;
+    height: 50vh;
     padding: 0;
     background-color: white;
     border-radius: 15px;
@@ -202,11 +244,12 @@ html {
     width: 70%;
     margin-left: 15%;
     border-radius: 25px;
-    height: 70vh;
-    background-color: rgba(146, 33, 33, 0.175);
+    height: auto;
+    background-color: #e3dcca;
     color: white;
-    box-shadow: 0 0 8px 1px white;
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.56);
     margin-bottom: 5vh;
+    padding-bottom: 2vh;
 }
 
 #skills-heading {
@@ -227,7 +270,7 @@ html {
 }
 
 .skill-item {
-    font-size: 8vw;
+    font-size: 6vw;
 }
 
 .fa-html5 {
@@ -239,7 +282,7 @@ html {
 }
 
 .fa-js-square {
-    color: #F0DB4F;
+    color: #323330;
 }
 
 .fa-node {
@@ -254,15 +297,19 @@ html {
     color: #5E97D0;
 }
 
+.fa-react {
+    color: #61DBFB
+}
+
 #Experience {
     width: 70%;
     margin-left: 15%;
     border-radius: 25px;
     height: 80vh;
     align-items: center;
-    background-color: rgba(146, 33, 33, 0.175);
-    color: #bbb0cf;
-    box-shadow: 0 0 8px 1px white;
+    background-color: #e3dcca;
+    color: #333333;
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.56);
     margin-bottom: 5vh;
 }
 
@@ -285,11 +332,12 @@ html {
     width: 70%;
     margin-left: 15%;
     border-radius: 25px;
-    height: 60vh;
-    background-color: rgba(146, 33, 33, 0.175);
-    color: #bbb0cf;
-    box-shadow: 0 0 8px 1px white;
-    margin-bottom: 5vh;
+    height: auto;
+    background-color: #e3dcca;
+    color: #333333;
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.56);
+    padding-bottom: 10vh;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 #connect-heading {
@@ -308,12 +356,12 @@ html {
 
 #connect-icons {
     width: 70%;
-    padding-left: 42%;
+    padding-left: 44%;
 }
 
 .fa-facebook-f {
     margin-left: 7%;
-    font-size: 2vw;
+    font-size: 1.7vw;
     color: #1778f2
 }
 
@@ -334,14 +382,8 @@ html {
     font-size: 1.4vw;
 }
 
-#dp {
-    width: 15vw;
-    border-radius: 50%;
-    margin-left: 38%;
-}
-
 .ball {
-    position: absolute;
+    position: fixed;
     border-radius: 100%;
     opacity: 1;
     padding: 0;
