@@ -18,7 +18,10 @@
         <p class="typing-demo">
             Hello! I'm Karthik
         </p>
-        <p id="quotes">Web Developer || Programmer || Chess Enthusiast</p>
+        <!-- <p id="quotes">Web Developer || Programmer || Chess Enthusiast</p> -->
+        <p>More about me</p>
+        <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+        <!-- <i class="fas fa-angle-double-down"></i> -->
 
     </div>
 
@@ -27,12 +30,17 @@
 
     <div id="About">
 
-        <img src="/images/dpnew.jpeg" id="dp">
+        <img src="/dpnew.jpeg" id="dp">
 
         <p id="about-heading">About me</p>
 
-        <p id="about-text">I'm an undergraduate student at Birla Institute of Technology and Sciences, PILANI. I am passionate about programming and algorithms. I am a chess enthusiast. I like to connect with like people. </p>
-
+        <!-- <p id="about-text">I'm an undergraduate student at Birla Institute of Technology and Sciences, PILANI. I am passionate about programming and algorithms. I am a chess enthusiast. I like to connect with like people. </p> -->
+        <p id="about-text">
+            I am from Guntur, Andhra Pradesh. I'm a Computer Science undergraduate at BITS-PILANI University. I am passionate about using technology to solve real-world problems and make a positive impact on society.
+            <!-- <br> I have a strong foundation in programming languages such as C++, Java, and Go, as well as experience with data structures, algorithms. I am also highly motivated to continue learning and expanding my skillset, and have participated in
+            several coding competitions to challenge myself.
+            <br> Outside of my academic pursuits, I have completed my internships at Swiggy and Cateina Technologies. -->
+        </p>
     </div>
 
     <div id="Skills">
@@ -45,6 +53,8 @@
             <i class="fab fa-node skill-item"></i>
             <i class="fab fa-java skill-item"></i>
             <i class="fab fa-cuttlefish skill-item">++</i>
+            <!-- <i class="fa-brands fa-golang"></i> -->
+            <div style="color: #29BEB0;" class="skill-item">GO</div>
         </div>
     </div>
 
@@ -52,17 +62,25 @@
         <p id="experience-heading">Work Experience</p>
         <div id="exp-container">
             <ul>
-                <li>Summer Intern at Cateina Technologies June 2021-July 2021
-                    <ul>
+                <li>Web Developer Intern - Cateina Technologies
+                    <ol>
                         <li>At Cateina we built a website using MEAN stack and added user validation, authentication for registration and login</li>
-                    </ul>
+                    </ol>
                 </li>
-                <li>Competitive Programmer
+                <li>Software Engineering Intern - Swiggy
+                    <ol>
+                        <li>Implemented prometheus metrics to monitor the performance of the APIs of a microservice. Built customized grafana dashboards to visualize the metrics</li>
+                        <li>Worked with Protocol Buffers and gRPC in microservices architectures. Used tools like BloomRPC to test the gRPC APIs</li>
+                        <li>Integrated gRPC APIs with HTTP clients through customizable http endpoints that can filter out the responses</li>
+                        <li>Wrote a Go script to safely update 50,000 records in the dynamo database table.</li>
+                    </ol>
+                </li>
+                <!-- <li>Competitive Programmer
                     <ul>
                         <li>Five stars in HackerRank problem solving</li>
                         <li>Three stars in Codechef</li>
                     </ul>
-                </li>
+                </li> -->
 
             </ul>
         </div>
@@ -72,42 +90,6 @@
     <div id="Projects">
         <p id="projects-heading">Projects</p>
         <div class="projects-grid">
-            <div class="project-item">
-                <p class="project-name">Movie Finder</p>
-                <p class="project-desc">
-                    <ul>
-                        <li>Basic Project using API</li>
-                        <li>Takes input from user and displays the details of all movies related to the movie entered by user</li>
-                    </ul>
-                </p>
-                <button class="project-link"><a style="text-decoration: none;color: white;" href="https://github.com/karthikuppalapati/MovieFinder" >View</a></button>
-
-            </div>
-
-            <div class="project-item">
-                <p class="project-name">Color Guessing Game</p>
-                <p class="project-desc">
-                    <ul>
-                        <li>A color guesssing game </li>
-                        <li>Takes input from user and displays the details of all movies related to the movie entered by user</li>
-                    </ul>
-                </p>
-                <button class="project-link"><a style="text-decoration: none;color: white;" href="https://karthikuppalapati.github.io/Color-Game/" >View</a></button>
-
-            </div>
-
-            <div class="project-item">
-                <p class="project-name">Weather App</p>
-                <p class="project-desc">
-                    <ul>
-                        <li>A weather forecasting website </li>
-                        <li>Input address is converted to Geo coordinates using MAXPBOX API and then coordinates are used by WEATHERSTACK API to fetch the weather details of the location</li>
-                    </ul>
-                </p>
-                <button class="project-link"><a style="text-decoration: none;color: white;" href="https://neon-weather-application.herokuapp.com/" >View</a></button>
-
-            </div>
-
             <div class="project-item">
                 <p class="project-name">Chat Application</p>
                 <p class="project-desc">
@@ -129,6 +111,44 @@
                 </p>
                 <button class="project-link"><a style="text-decoration: none;color: white;" href="https://sorts-visualizer.herokuapp.com/" >View</a></button>
             </div>
+
+            <!-- <div class="project-item">
+                <p class="project-name">Movie Finder</p>
+                <p class="project-desc">
+                    <ul>
+                        <li>Basic Project using API</li>
+                        <li>Takes input from user and displays the details of all movies related to the movie entered by user</li>
+                    </ul>
+                </p>
+                <button class="project-link"><a style="text-decoration: none;color: white;" href="https://github.com/karthikuppalapati/MovieFinder" >View</a></button>
+
+            </div> -->
+
+            <!-- <div class="project-item">
+                <p class="project-name">Color Guessing Game</p>
+                <p class="project-desc">
+                    <ul>
+                        <li>A color guesssing game </li>
+                        <li>Takes input from user and displays the details of all movies related to the movie entered by user</li>
+                    </ul>
+                </p>
+                <button class="project-link"><a style="text-decoration: none;color: white;" href="https://karthikuppalapati.github.io/Color-Game/" >View</a></button>
+
+            </div> -->
+
+            <!-- <div class="project-item">
+                <p class="project-name">Weather App</p>
+                <p class="project-desc">
+                    <ul>
+                        <li>A weather forecasting website </li>
+                        <li>Input address is converted to Geo coordinates using MAXPBOX API and then coordinates are used by WEATHERSTACK API to fetch the weather details of the location</li>
+                    </ul>
+                </p>
+                <button class="project-link"><a style="text-decoration: none;color: white;" href="https://neon-weather-application.herokuapp.com/" >View</a></button>
+
+            </div> -->
+
+
 
         </div>
 

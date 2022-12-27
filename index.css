@@ -389,3 +389,7 @@ html {
     padding: 0;
     width: 75%
 }
+
+ol {
+    font-size: 20px;
+}
